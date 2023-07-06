@@ -31,3 +31,7 @@ export default function Clock() {
 
   )
 }
+
+
+
+//this is not responsive 

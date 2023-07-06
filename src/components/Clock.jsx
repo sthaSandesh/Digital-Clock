@@ -15,13 +15,14 @@ export default function Clock() {
 
 
     const nayaTarik = () => {
-      miti - new Date().toLocaleDateString();
+      miti = new Date().toLocaleDateString();
       setTarik(miti);
     }
 
 
     setInterval(nayaTime , 1000);
 
+    setInterval(nayaTarik , 100000);
   return (
     <div className='min-h-screen bg-[url(/src/assets/space.jpg)] bg-cover flex items-center justify-center'>
   <div className='relative'>

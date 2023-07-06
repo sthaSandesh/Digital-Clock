@@ -3,8 +3,10 @@ import { useState } from 'react';
 
 export default function Clock() {
     let samaye = new Date().toLocaleTimeString(); 
+    let miti = new Date().toLocaleDateString();
 
     const [Time , setTime] = useState(samaye);
+    const [Tarik , setTarik]= useState(miti);
 
     const nayaTime = () => {
         samaye = new Date().toLocaleTimeString(); 

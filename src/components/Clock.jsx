@@ -29,7 +29,7 @@ export default function Clock() {
     <div className='relative flex-col flex items-center justify-center text-white font-bold'>
       <div className='text-4xl'>Time</div>
       <div className='text-8xl '>{samaye}</div>
-      <div className='text-4xl'>{miti}</div>
+      <div className='text-4xl pt-4'>Date : {miti}</div>
     </div>
   </div>
 </div>

@@ -13,6 +13,13 @@ export default function Clock() {
         setTime(samaye);
     }
 
+
+    const nayaTarik = () => {
+      miti - new Date().toLocaleDateString();
+      setTarik(miti);
+    }
+
+
     setInterval(nayaTime , 1000);
 
   return (
@@ -22,6 +29,7 @@ export default function Clock() {
     <div className='relative flex-col flex items-center justify-center text-white font-bold'>
       <div className='text-4xl'>Time</div>
       <div className='text-8xl '>{samaye}</div>
+      <div>{miti}</div>
     </div>
   </div>
 </div>

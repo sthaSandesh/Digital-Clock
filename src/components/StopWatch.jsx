@@ -40,9 +40,10 @@ function Stopwatch() {
                     <div className="timer text-8xl">{formatTime(time)}</div>
                     <div className="buttons space-x-10 text-2xl">
                         <button onClick={handleStartStop}
-                        className='bg-purple-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full'
+                        className='bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full'
                         >{running ? 'Stop' : 'Start'}</button>
                         <button onClick={handleReset}
+                        className='bg-purple-700 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded-full'
                         >Reset</button>
                     </div>
                 </div>
